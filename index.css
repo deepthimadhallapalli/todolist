@@ -1,0 +1,56 @@
+container {
+    textAlign: 'center',
+    maxWidth '400px',
+    margin '0 auto',
+    padding '20px',
+    backgroundColor '#f7f7f7',
+    borderRadius '8px',
+    boxShadow '0 4px 6px rgba(0, 0, 0, 0.1)',
+  }
+  title {
+    fontSize: '24px',
+    marginBottom '16px',
+  }
+  inputContainer {
+    display: 'flex',
+    alignItems 'center',
+    marginBottom '16px',
+  }
+  input {
+    flex: '1',
+    padding '8px',
+    borderRadius '4px',
+    border '1px solid #ccc',
+  }
+  addButton {
+    marginLeft: '8px',
+    padding '8px 16px',
+    background "blue",
+    color 'white',
+    border 'none',
+    borderRadius '4px',
+    cursor 'pointer',
+  }
+  taskList {
+    listStyleType: 'none',
+    padding '0',
+  }
+  taskItem {
+    display: 'flex',
+    justifyContent 'space-between',
+    alignItems 'center',
+    margin '8px 0',
+    padding '8px',
+    border '1px solid #ccc',
+    borderRadius '4px',
+    backgroundColor 'white',
+  }
+  deleteButton {
+    padding: '4px 8px',
+    color 'white',
+    border 'none',
+    borderRadius '4px',
+    cursor 'pointer',
+  }
+
+export default todolist1;
